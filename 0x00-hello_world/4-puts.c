@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc 4-puts.c 
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-maini.c && ./a.out
